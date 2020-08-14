@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/static/xsl/text-bibl.xsl"?>
+<tibbibl id="kt-c-3002-bib" level="text">
+   <controlinfo>
+      <sysid>kt-c-3002-bib</sysid>
+      <date>2007-06-01</date>
+      <respStmt>
+         <resp>Cataloguer</resp>
+         <name>dps</name>
+      </respStmt>
+      <revisionDesc>
+         <change>
+            <date>2009-12-15</date>
+            <respStmt>
+               <resp>Conversion to XML</resp>
+               <name>ndg</name>
+            </respStmt>
+            <item>Converted database record into XML using FileMaker and Excel VBA macros</item>
+         </change>
+      </revisionDesc>
+      <resources>
+         <xref n="parent-cat">kt/c/kt-c-cat.xml</xref>
+      </resources>
+   </controlinfo>
+   <tibiddecl scheme="thl">
+      <head>Identification Information</head>
+      <tibid type="collection" system="sigla">KT
+<tibid type="edition" system="letter">Choné
+<altid lang="tib"><!--co ne/-->ཅོ་ནེ།</altid>
+            <tibid type="edition" system="sigla">c<tibid type="text" system="number">3002</tibid>
+               <tibid type="volume" system="number" n="74">181
+<altid system="letter" lang="tib"><!--pu-->པུ</altid>
+                  <tibid type="text" system="number">1</tibid>
+               </tibid>
+            </tibid>
+         </tibid>
+      </tibid>
+      <idno type="master" n="fmpdb">3040</idno>
+   </tibiddecl>
+   <physdecl>
+      <head>Physical Description</head>
+      <pagination>
+         <rs type="vol" n="181">
+            <rs type="pagination" n="start">
+               <num type="vol" n="74">181</num>
+               <num type="page">83a</num>
+               <num type="line">4</num>
+            </rs>
+            <rs type="pagination" n="end">
+               <num type="vol" n="74">181</num>
+               <num type="page">83a</num>
+               <num type="line">2</num>
+            </rs>
+         </rs>
+      </pagination>
+      <extentdecl type="sides">
+         <extent class="total">0.714285714</extent>
+      </extentdecl>
+   </physdecl>
+   <intelldecl>
+      <head>Intellectual Description</head>
+      <doxography type="relation">TG</doxography>
+      <doxography type="category" subtype="edition" n="1" lang="tib"><!--rgyud/-->རྒྱུད།</doxography>
+   </intelldecl>
+   <origination>
+      <head>Provenance</head>
+      <respdecl type="author" n="id:0">
+         <persName type="indian" n="id:0" lang="eng">Not specified.</persName>
+         <source/>
+      </respdecl>
+      <respdecl type="translator" n="id:0">
+         <persName type="indian" n="id:0" lang="eng">Not specified.</persName>
+         <persName type="tibetan" n="id:0" lang="eng">Not specified.</persName>
+         <source/>
+      </respdecl>
+
+   </origination>
+   <titlegrp>
+      <head>Title Information</head>
+      <titledecl n="normalized-title">
+         <title lang="tib" type="normalized-title"><!--klu sgrub rin po che dbyig sgrub/-->ཀླུ་སྒྲུབ་རིན་པོ་ཆེ་དབྱིག་སྒྲུབ།</title>
+         <source>dps</source>
+      </titledecl>
+      <titleinfo>
+         <head>Title Variants</head>
+         <titlediv type="nontibet">
+            <titledecl>
+               <title lang="san" type="normalized" rend="reconstructed">Nāga-sādhana-ratna-hiraṇya-siddhi</title>
+               <source>dps</source>
+            </titledecl>
+            <pagination/>
+         </titlediv>
+      </titleinfo>
+   </titlegrp>
+</tibbibl>
