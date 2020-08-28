@@ -1,23 +1,36 @@
 <!doctype html>
 {% block head %}
-<title>{% block title %}Welcome{% endblock %} | United Catalog of the Buddhist Tripitaka</title>
-<meta charset=utf-8>
-<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
-<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
-<script type=text/javascript
-  src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <title>{% block title %}Welcome | United Catalog of the Buddhist Tripitaka{% endblock %}</title>
+    <meta charset=utf-8>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <script type=text/javascript
+    src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 {% endblock %}
-<div class=box>
-  {% block body_title %}
-    <h1><span>{{ self.title() }}</span></h1>
-  {% endblock %}
-  <p class=nav>
-    <a href="/}">home</a> //
-    <a href="{{ url_for('catalog') }}">catalog</a> //
-  {% for message in get_flashed_messages() %}
-    <p class=message>{{ message }}
-  {% endfor %}
-  {% block body %}{% endblock %}
-  <p class=footer>
-    &copy; Copyright {{ current_year }} by UCBT
+
+<div class=main>
+    <div class=page-header>
+        {% block body_title %}
+        <h2>Union Catalog of the Buddhist Tripitaka</h2>
+        {% endblock %}
+    </div>
+    <div class=nav>
+        <ul>
+            <li><a href="/">home</a></li>
+            <li><a href="/catalog">catalog</a></li>
+            <li><a href="/catalog/bibl/kt/c/3002">KT C Bibl</a></li>
+            <li><a href="/catalog/bibl/dkcw/0060">Dkcw Bibl</a></li>
+        </ul>
+    </div>
+    <div class=content>
+        {% for message in get_flashed_messages() %}
+            <p class=message>{{ message }}</p>
+        {% endfor %}
+
+        {% block body %}{% endblock %}
+    </div>
+    <div class=footer>
+        &copy; Copyright {{ current_year }} by UCBT
+    </div>
 </div>

@@ -1,6 +1,7 @@
 import os
 import subprocess
-from flask import Flask, Response, redirect
+from datetime import datetime
+from flask import Flask, Response, Markup, redirect, render_template
 
 
 def create_app(test_config=None):
@@ -23,6 +24,10 @@ def create_app(test_config=None):
     except OSError:
         pass
 
+    @app.context_processor
+    def current_year():
+        return {'current_year': datetime.utcnow().year}
+
     @app.route('/')
     def home():
         return redirect('/hello')
@@ -30,7 +35,13 @@ def create_app(test_config=None):
     # a simple page that says hello
     @app.route('/hello')
     def hello():
-        return "Hello, trichiliochosm!"
+        head = "Hello, Trichiliocosm!"
+        msg = Markup("<p>You have made it to the wonderous beginnings of the UCBT catalog API. This is the place " +
+                        "from  which the data will be delivered. The Buddhist Catalog API is the backbone of " +
+                        "the Buddhist catalog site. Built in the Python Flask web framework, " +
+                        "it delivers the information used by the single "  +
+                        "page react app, through processing and transorming the original XML data.</p>")
+        return render_template('index.html', title='Home', header=head, text=msg)
 
     @app.route('/configtest')
     def myconfig():
@@ -58,6 +69,9 @@ def create_app(test_config=None):
         # print(result)
         # outhtml = '<div><h1>Result</h1><p>cwd = ' + str(result.stdout) + '</p></div>'
         # return Response(outhtml)
+
+    from . import catalog
+    app.register_blueprint(catalog.catbp)
 
     return app
 
