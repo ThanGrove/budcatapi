@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- For stand-alone validation: <!DOCTYPE tibbibl SYSTEM "http://www.thlib.org/global/xml/dtds/xtibbibl3.dtd">  --><tibbibl id="ngb-dg-0003-bib" level="text">
+   <controlinfo>
+      <sysid>ngb-dg-0003-bib.xml</sysid>
+      <date>2001-10-16</date>
+      <respStmt>
+         <resp>Cataloguer</resp>
+         <name>snw</name>
+      </respStmt>
+      <revisionDesc>
+         <change>
+            <date>2003-10-14</date>
+            <respStmt>
+               <resp>Conversion to SGML</resp>
+               <name>ndg</name>
+            </respStmt>
+            <item>Ran Visual Basic routine to convert MS Word table to SGML.</item>
+         </change>
+         <change>
+            <date>2003-11-5</date>
+            <respStmt>
+               <resp>XML Converter</resp>
+               <name>ndg</name>
+            </respStmt>
+            <item>Used Perl, sx, and XSLT to transform the SGML into a valid, well-formed XML document with Unicode diacritics.</item>
+         </change>
+         <change>
+            <date>2008-05-22</date>
+            <respStmt>
+               <resp>XML Converter 2</resp>
+               <name>ndg</name>
+            </respStmt>
+            <item>Modified XML mark-up to fit new Cocoon catalog display and search system. (XSLT: convertNgbTibbibls.xsl)</item>
+         </change>
+      </revisionDesc>
+      <resources>
+         <xref n="parent-cat">ngb/dg/ngb-dg-cat.xml</xref>
+      </resources>
+   </controlinfo>
+   <!--Bibliographic Record for རྒྱུད་ཐམས་ཅད་ཀྱི་སྤྱི་ཕུད་ཉི་ཟླ་བཀོད་པ་ནམ་མཁའི་མཐའ་དང་མཉམ་པའི་རྒྱུད། --><tibiddecl scheme="thl"><!--Identification Information--><tibid type="collection" system="sigla">ngb<tibid type="edition" system="letter">sDe dge<altid lang="tib" system="letter"><!--sde dge-->སྡེ་དགེ</altid>
+            <tibid type="edition" system="sigla">Dg<tibid type="text" system="number">0003</tibid>
+               <tibid type="volume" system="number">01<altid system="letter" lang="tib"><!--ka-->ཀ</altid>
+                  <tibid type="text" system="number">3</tibid>
+               </tibid>
+            </tibid>
+         </tibid>
+      </tibid>
+      <idno n="tb-250" type="crossref">Tb.250</idno>
+      <idno type="master">ngb-ng-0129</idno>
+   </tibiddecl>
+   <physdecl><!--Physical Description--><pagination>
+         <rs type="pagination" n="start">
+            <num type="page">101a</num>
+            <num type="line">1</num>
+         </rs>
+         <rs type="pagination" n="end">
+            <num type="page">106b</num>
+            <num type="line">3</num>
+         </rs>
+      </pagination>
+      <extentdecl type="sides">
+         <extent class="total">12</extent>
+         <extent class="atiyoga"/>
+      </extentdecl>
+      <divdecl type="cle">
+         <divcount class="total">20</divcount>
+         <divcount class="front">2</divcount>
+         <divcount class="body">15<name type="designation">
+                  <rs lang="tib"><!--le'u/-->ལེའུ།</rs>
+               </name>
+         </divcount>
+         <divcount class="back">3</divcount>
+      </divdecl>
+      <discussion type="chapter-level-elements"/>
+      <physfacet type="illustrations">No</physfacet>
+      <physfacet lang="tib" type="script"><!--dbu can/-->དབུ་ཅན།</physfacet>
+   </physdecl>
+   <intelldecl><!--Intellectual Description--><doxography type="relation">NGB text proper</doxography>
+      <doxography type="category" lang="tib" subtype="master"><!----></doxography>
+      <doxography type="category" lang="tib" subtype="edition"><!--a ti yo ga-->ཨ་ཏི་ཡོ་ག</doxography>
+      <doxography type="genre" lang="tib"><!--rgyud/-->རྒྱུད།</doxography>
+      <discussion type="homage-obj" lang="tib"><!----><source>
+            <rs type="pagination" n="start">
+               <num type="page"/>
+               <num type="line"/>
+            </rs>
+         </source>
+      </discussion>
+   </intelldecl>
+   <origination><!--Provenance--><respdecl type="translator">
+         <persName lang="tib" type="indian-scholar"><!--rgya gar gyi slob dpon chen po pad ma 'byung gnas/-->རྒྱ་གར་གྱི་སློབ་དཔོན་ཆེན་པོ་པད་མ་འབྱུང་གནས།</persName>
+         <persName lang="tib" type="tibetan-translator"><!--bod kyi lots+tsha ba ska ba dpal brtsegs/-->བོད་ཀྱི་ལོཙྪ་བ་སྐ་བ་དཔལ་བརྩེགས།</persName>
+         <date lang="eng">Not specified.</date>
+         <placeName lang="eng">Not specified.</placeName>
+         <source>
+            <rs type="pagination" n="start">
+               <num type="page">106b</num>
+               <num type="line">2</num>
+            </rs>
+            <rs type="pagination" n="end">
+               <num type="page">106b</num>
+               <num type="line">3</num>
+            </rs>
+         </source>
+         <discussion type="original-language" lang="tib" rend="info"><!--rgya gar skad/-->རྒྱ་གར་སྐད།</discussion>
+         <discussion type="translators"/>
+      </respdecl>
+   </origination>
+   <titlegrp>
+      <titledecl n="text"><!--Title Information--><title lang="tib" type="normalized-title"/>
+         <source>
+            <xptr n="ngb-tb-0250-bib" type="normalized-title"/>
+         </source>
+         <discussion type="normalized-title" rend="info"/>
+         <title lang="tib" type="edition-title"><!--rgyud thams cad kyi spyi phud nyi zla bkod pa nam mkha'i mtha' dang mnyam pa'i rgyud/-->རྒྱུད་ཐམས་ཅད་ཀྱི་སྤྱི་ཕུད་ཉི་ཟླ་བཀོད་པ་ནམ་མཁའི་མཐའ་དང་མཉམ་པའི་རྒྱུད།</title>
+         <source rend="own-line">
+            <name type="section">Title line</name>,
+			<rs type="pagination" n="start">
+               <num type="page">101a</num>
+               <num type="line">1</num>
+            </rs>
+            <rs type="pagination" n="end">
+               <num type="page">101a</num>
+               <num type="line">2</num>
+            </rs>
+         </source>
+      </titledecl>
+      <titleinfo><!--Title Variants--><titlediv type="front" subtype="title-line">
+            <titledecl>
+               <title lang="tib"><!--rgyud thams cad kyi spyi phud nyi zla bkod pa nam mkha'i mtha' dang mnyam pa'i rgyud/-->རྒྱུད་ཐམས་ཅད་ཀྱི་སྤྱི་ཕུད་ཉི་ཟླ་བཀོད་པ་ནམ་མཁའི་མཐའ་དང་མཉམ་པའི་རྒྱུད།</title>
+            </titledecl>
+            <pagination>
+               <rs type="pagination" n="start">
+                  <num type="page">101a</num>
+                  <num type="line">1</num>
+               </rs>
+               <rs type="pagination" n="end">
+                  <num type="page">101a</num>
+                  <num type="line">2</num>
+               </rs>
+            </pagination>
+         </titlediv>
+         <titlediv type="nontibet">
+            <titledecl>
+               <title lang="tib"><!--tan+t+ra sarba tsUDA sUr+ya tsan+d+ra b+yU ha ga ga na an+ta sa ma tan+t+ra/-->ཏནྟྲ་སརྦ་ཙཱུཌཱ་སཱུརྱ་ཙནྡྲ་བྱཱུ་ཧ་ག་ག་ན་ཨནྟ་ས་མ་ཏནྟྲ།</title>
+               <discussion type="original-language" lang="tib" rend="info"><!--rgya gar skad/-->རྒྱ་གར་སྐད།</discussion>
+            </titledecl>
+            <pagination>
+               <rs type="pagination" n="start">
+                  <num type="page">101a</num>
+                  <num type="line">1</num>
+               </rs>
+            </pagination>
+         </titlediv>
+      </titleinfo>
+   </titlegrp>
+   <sections>
+      <tibanal n="1"><!--Front Sections--><tibbibl level="chapter" n="a1">
+            <head>Title Line</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">a1</tibid>
+            </tibiddecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">101a</num>
+                     <num type="line">1</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">101a</num>
+                     <num type="line">2</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="a2">
+            <head>Homage</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">a2</tibid>
+            </tibiddecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">101a</num>
+                     <num type="line">2</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+      </tibanal>
+      <tibanal n="2"><!--Body Sections--><tibbibl level="chapter" n="b1">
+            <head>Chapter 1</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b1</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--gleng gzhi phun sum tshogs pa dang /_'khor gyis gleng bslang zhus pa'i le'u ste dang po/-->གླེང་གཞི་ཕུན་སུམ་ཚོགས་པ་དང་། འཁོར་གྱིས་གླེང་བསླང་ཞུས་པའི་ལེའུ་སྟེ་དང་པོ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">101a</num>
+                     <num type="line">7</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">101a</num>
+                     <num type="line">2</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">101a</num>
+                     <num type="line">7</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b2">
+            <head>Chapter 2</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b2</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--sangs rgyas sems can gyi gzhi bstan pa'i le'u ste gnyis pa/-->སངས་རྒྱས་སེམས་ཅན་གྱི་གཞི་བསྟན་པའི་ལེའུ་སྟེ་གཉིས་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">101b</num>
+                     <num type="line">3</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">101a</num>
+                     <num type="line">7</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">101b</num>
+                     <num type="line">3</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b3">
+            <head>Chapter 3</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b3</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--'khrul lugs bstan pa'i le'u ste gsum pa/-->འཁྲུལ་ལུགས་བསྟན་པའི་ལེའུ་སྟེ་གསུམ་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">102a</num>
+                     <num type="line">2</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">102a</num>
+                     <num type="line">3</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">101b</num>
+                     <num type="line">3</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">102a</num>
+                     <num type="line">3</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b4">
+            <head>Chapter 4</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b4</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--'khrul pa rtsad nas gcod pa'i gdams ngag bstan pa'i le'u ste bzhi pa/-->འཁྲུལ་པ་རྩད་ནས་གཅོད་པའི་གདམས་ངག་བསྟན་པའི་ལེའུ་སྟེ་བཞི་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">102b</num>
+                     <num type="line">3</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">102b</num>
+                     <num type="line">4</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">102a</num>
+                     <num type="line">3</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">102b</num>
+                     <num type="line">4</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b5">
+            <head>Chapter 5</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b5</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--'bras bu bstan pa'i le'u ste lnga pa/-->འབྲས་བུ་བསྟན་པའི་ལེའུ་སྟེ་ལྔ་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">102b</num>
+                     <num type="line">7</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">102b</num>
+                     <num type="line">4</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">102b</num>
+                     <num type="line">7</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b6">
+            <head>Chapter 6</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b6</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--yang rab kyi rnal 'byor pas thod rgal du rtogs par bstan pa'i le'u ste drug pa/-->ཡང་རབ་ཀྱི་རྣལ་འབྱོར་པས་ཐོད་རྒལ་དུ་རྟོགས་པར་བསྟན་པའི་ལེའུ་སྟེ་དྲུག་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">103a</num>
+                     <num type="line">4</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">103a</num>
+                     <num type="line">5</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">102b</num>
+                     <num type="line">7</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">103a</num>
+                     <num type="line">5</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b7">
+            <head>Chapter 7</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b7</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--gzhi 'khrul rtsad gcod ngo shes pas 'khrul pa dang ma 'khrul pa med par bstan pa'i le'u ste bdun pa/-->གཞི་འཁྲུལ་རྩད་གཅོད་ངོ་ཤེས་པས་འཁྲུལ་པ་དང་མ་འཁྲུལ་པ་མེད་པར་བསྟན་པའི་ལེའུ་སྟེ་བདུན་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">103b</num>
+                     <num type="line">2</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">103a</num>
+                     <num type="line">5</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">103b</num>
+                     <num type="line">2</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b8">
+            <head>Chapter 8</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b8</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--ming med mtha' stongs rtogs thabs bstan pa'i le'u ste brgyad pa/-->མིང་མེད་མཐའ་སྟོངས་རྟོགས་ཐབས་བསྟན་པའི་ལེའུ་སྟེ་བརྒྱད་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">104a</num>
+                     <num type="line">5</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">103b</num>
+                     <num type="line">2</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">104a</num>
+                     <num type="line">5</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b9">
+            <head>Chapter 9</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b9</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--mu med mtha' yas rtogs thabs bstan pa'i le'u ste dgu pa/-->མུ་མེད་མཐའ་ཡས་རྟོགས་ཐབས་བསྟན་པའི་ལེའུ་སྟེ་དགུ་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">104b</num>
+                     <num type="line">7</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">104a</num>
+                     <num type="line">5</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">104b</num>
+                     <num type="line">7</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b10">
+            <head>Chapter 10</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b10</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--bya btsal rtsol bsgrub mi dgos par bstan pa'i le'u ste bcu pa/-->བྱ་བཙལ་རྩོལ་བསྒྲུབ་མི་དགོས་པར་བསྟན་པའི་ལེའུ་སྟེ་བཅུ་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">105a</num>
+                     <num type="line">4</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">104b</num>
+                     <num type="line">7</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">105a</num>
+                     <num type="line">4</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b11">
+            <head>Chapter 11</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b11</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--yang ti yo gas ji ltar rtogs pa bstan pa'i le'u ste bcu gcig pa/-->ཡང་ཏི་ཡོ་གས་ཇི་ལྟར་རྟོགས་པ་བསྟན་པའི་ལེའུ་སྟེ་བཅུ་གཅིག་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">105b</num>
+                     <num type="line">1</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">105a</num>
+                     <num type="line">4</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">105b</num>
+                     <num type="line">1</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b12">
+            <head>Chapter 12</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b12</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--rdzogs chen yang ti yo gar theg pa rim dgu rdzogs par bstan pa'i le'u ste bcu gnyis pa/-->རྫོགས་ཆེན་ཡང་ཏི་ཡོ་གར་ཐེག་པ་རིམ་དགུ་རྫོགས་པར་བསྟན་པའི་ལེའུ་སྟེ་བཅུ་གཉིས་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">105b</num>
+                     <num type="line">6</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">105b</num>
+                     <num type="line">7</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">105b</num>
+                     <num type="line">1</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">105b</num>
+                     <num type="line">7</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b13">
+            <head>Chapter 13</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b13</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--yang ti yo ga'i 'bras bu bstan pa'i le'u ste bcu gsum pa/-->ཡང་ཏི་ཡོ་གའི་འབྲས་བུ་བསྟན་པའི་ལེའུ་སྟེ་བཅུ་གསུམ་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">106a</num>
+                     <num type="line">4</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">105b</num>
+                     <num type="line">7</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">106a</num>
+                     <num type="line">4</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b14">
+            <head>Chapter 14</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b14</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--mtshan bstan pa'i le'u ste bcu bzhi pa/-->མཚན་བསྟན་པའི་ལེའུ་སྟེ་བཅུ་བཞི་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">106a</num>
+                     <num type="line">7</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">106a</num>
+                     <num type="line">4</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">106a</num>
+                     <num type="line">7</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="b15">
+            <head>Chapter 15</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b15</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!--rgyud gtad pa'i le'u ste bco lnga pa/-->རྒྱུད་གཏད་པའི་ལེའུ་སྟེ་བཅོ་ལྔ་པ།</title>
+               <title lang="eng" type="chapter"/>
+               <source>
+                  <rs type="pagination" n="start">
+                     <num type="page">106b</num>
+                     <num type="line">2</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">106a</num>
+                     <num type="line">4</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">106b</num>
+                     <num type="line">2</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+      </tibanal>
+      <tibanal n="3"><!--Back Sections--><tibbibl level="chapter" n="c1">
+            <head>Closing Section</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">c1</tibid>
+            </tibiddecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">106b</num>
+                     <num type="line">2</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="c2">
+            <head>Translator's Colophon</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">c2</tibid>
+            </tibiddecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">106b</num>
+                     <num type="line">2</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">106b</num>
+                     <num type="line">3</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter" n="c3">
+            <head>Closing Invocation</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">c3</tibid>
+            </tibiddecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">106b</num>
+                     <num type="line">3</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+      </tibanal>
+   </sections>
+</tibbibl>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/static/xsl/text-bibl.xsl"?>
+<tibbibl id="dkcw-0004-bib" level="text">
+	<controlinfo>
+		<sysid>dkcw-0004-bib.xml</sysid>
+		<date>2004-06-22</date>
+		<respStmt>
+			<resp>Creator</resp>
+			<name>jmr</name>
+		</respStmt>
+		<revisionDesc>
+			<change>
+				<date>2006-11-20</date>
+				<respStmt>
+					<resp> Conversion to XML </resp>
+					<name> ndg </name>
+				</respStmt>
+				<item> Ran Visual Basic routine to convert MS Word table to XML. </item>
+			</change>
+			<change>
+				<date>2008-07-22</date>
+				<respStmt>
+					<resp>Updated XML</resp>
+					<name>ndg</name>
+				</respStmt>
+				<item>Used XSLT batch conversion of records to update markup</item>
+			</change>
+		</revisionDesc>
+		<resources>
+			<xref n="parent-cat">dkcw/dkcw-cat.xml</xref>
+		</resources>
+	</controlinfo>
+	<tibiddecl scheme="thl">
+		<tibid type="collection" system="letter">Dil mgo mkhyen rtse bka’ ’bum <altid lang="tib" rend="tib" system="letter"
+				n="collection">དིལ་མགོ་མཁྱེན་རྩེ་བཀའ་འབུམ།</altid>
+			<tibid type="collection" system="sigla">Dkcw<tibid type="text" system="number">4</tibid>
+				<tibid type="volume" system="number">1<altid lang="tib" rend="tib" n="volume" system="letter"><!--ka-->ཀ</altid>
+					<tibid type="text" system="number">4</tibid>
+				</tibid>
+			</tibid>
+		</tibid>
+		<idno type="file" n="tibdoc">Dkcw-4_TM.dct</idno>
+		<idno type="file" n="tm">Dkcw-4_TM.rtf</idno>
+		<idno type="file" n="tmw">Dkcw-4_TMW.rtf</idno>
+		<idno type="file" n="wylie">Dkcw-4_Wyl.rtf</idno>
+	</tibiddecl>
+	<physdecl>
+		<pagination>
+			<rs type="pagination" n="start">
+				<num type="page">307a</num>
+				<num type="line">1</num>
+			</rs>
+			<rs type="pagination" n="end">
+				<num type="page">314a</num>
+				<num type="line">4</num>
+			</rs>
+		</pagination>
+		<extentdecl type="sides">
+			<extent class="total">15</extent>
+		</extentdecl>
+	</physdecl>
+	<intelldecl>
+		<doxography lang="tib" type="genre" n="shechen" rend="tib"><!--rnam thar-->རྣམ་ཐར།</doxography>
+	</intelldecl>
+	<origination>
+		<respdecl type="author">
+			<persName type="author" lang="tib" rend="tib"><!--dil mgo mkhyen brtse/-->དིལ་མགོ་མཁྱེན་བརྩེ།</persName>
+		</respdecl>
+	</origination>
+	<titlegrp>
+		<titledecl n="normalize-title">
+			<title type="normalized-title" lang="tib" rend="tib"
+				><!--theg pa mchog gi rnal 'byor pa bya bral kun dga' dpal ldan gyi rnam thar ngo mtshar bdud rtsi'i snang ba-->ཐེག་པ་མཆོག་གི་རྣལ་འབྱོར་པ་བྱ་བྲལ་ཀུན་དགའ་དཔལ་ལྡན་གྱི་རྣམ་ཐར་ངོ་མཚར་བདུད་རྩིའི་སྣང་བ།</title>
+		</titledecl>
+		<titleinfo>
+			<titlediv subtype="title-line" type="front">
+				<titledecl>
+					<title lang="tib" type="title-line" rend="tib"
+						><!--theg pa mchog gi rnal 'byor pa bya bral kun dga' dpal ldan gyi rnam thar ngo mtshar bdud rtsi'i snang ba-->ཐེག་པ་མཆོག་གི་རྣལ་འབྱོར་པ་བྱ་བྲལ་ཀུན་དགའ་དཔལ་ལྡན་གྱི་རྣམ་ཐར་ངོ་མཚར་བདུད་རྩིའི་སྣང་བ།</title>
+				</titledecl>
+				<pagination/>
+			</titlediv>
+			<titlediv type="nontibet">
+				<titledecl>
+					<title lang="eng">No title given.</title>
+					<note n="non-tibetan-lang" type="lang" place="unspecified" anchored="yes"/>
+				</titledecl>
+				<pagination/>
+			</titlediv>
+			<titlediv type="margin">
+				<titledecl>
+					<title type="margin" lang="eng">No title given.</title>
+				</titledecl>
+				<pagination/>
+			</titlediv>
+			<titlediv type="back" subtype="closing">
+				<titledecl>
+					<title type="closing-title" lang="eng">No title given.</title>
+				</titledecl>
+				<pagination/>
+			</titlediv>
+		</titleinfo>
+	</titlegrp>
+	<physdecl n="colophon">
+		<discussion lang="tib" rend="tib" n="colophon-contents"
+			><!--rje nyid kyi sku tshe ril po'i gzigs dpe mdzod bdun dang ngal gso skor gsum gyi phyag dpe gnang nas tshad med pa'i thugs rjes rjes su bzung bas na sgro skur dang bral ba'i rnam thar nyung ngu 'di'ang mang+ga la shrI b+hU ti'i dben pa'i gnas su bris pa 'gro kun theg mchog rgyal po'i gseng lam la 'jug ste dpal ldan bla ma'i rnam thar gyi rjes su snyogs pa'i rgyur gyur cig-->རྗེ་ཉིད་ཀྱི་སྐུ་ཚེ་རིལ་པོའི་གཟིགས་དཔེ་མཛོད་བདུན་དང་ངལ་གསོ་སྐོར་གསུམ་གྱི་ཕྱག་དཔེ་གནང་ནས་ཚད་མེད་པའི་ཐུགས་རྗེས་རྗེས་སུ་བཟུང་བས་ན་སྒྲོ་སྐུར་དང་བྲལ་བའི་རྣམ་ཐར་ཉུང་ངུ་འདིའང་མངྒ་ལ་ཤྲཱི་བྷཱུ་ཏིའི་དབེན་པའི་གནས་སུ་བྲིས་པ་འགྲོ་ཀུན་ཐེག་མཆོག་རྒྱལ་པོའི་གསེང་ལམ་ལ་འཇུག་སྟེ་དཔལ་ལྡན་བླ་མའི་རྣམ་ཐར་གྱི་རྗེས་སུ་སྙོགས་པའི་རྒྱུར་གྱུར་ཅིག</discussion>
+	</physdecl>
+</tibbibl>
