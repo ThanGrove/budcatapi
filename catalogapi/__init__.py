@@ -32,9 +32,18 @@ def create_app(test_config=None):
     def hello():
         return "Hello, trichiliochosm!"
 
+    @app.route('/configtest')
+    def myconfig():
+        tvar = app.config['TESTVAR']
+        gbvar = app.config['GLOBVAR'] if 'GLOBVAR' in app.config else 'Not found!'
+        outhtml = '<div><ul><li>Testvar: {}</li><li>Other: {}</li></ul></div>'.format(tvar, str(gbvar))
+        return Response(outhtml)
+
     @app.route('/xsltest')
     def xlstest():
-        cmdstr = 'java -cp lib/saxon-he-10.2.jar net.sf.saxon.Transform -t -s:static/xml/kt-c-3002-bib.xml -xsl:static/xsl/tbib.xsl -o:cache/kt-c-3002-bib.html'
+        cmdstr = 'java -cp lib/saxon-he-10.2.jar net.sf.saxon.Transform -t ' \
+                 '-s:xml/kt-c-3002-bib.xml -xsl:xsl/tbib.xsl'
+        #         '-o:cache/kt-c-3002-bib.html'
         cmd = cmdstr.split(' ')
         result = subprocess.run(cmd, capture_output=True, encoding='utf8')
         outhtml = '<div><h1>Result</h1><ul>' \

@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-cd ..
-export FLASK_APP=.
+. venv/bin/activate
+export FLASK_APP=catalogapi
 export FLASK_ENV=development
 flask run

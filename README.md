@@ -6,6 +6,7 @@ to a SPA built in a JS Framework that allows users to browse the catalog, view t
 To run, do from terminal:
 
 ```
+. venv/bin/activate
 export FLASK_APP=.
 export FLASK_ENV=development
 flask run
