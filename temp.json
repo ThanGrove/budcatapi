@@ -1,0 +1,145 @@
+{
+        "id": "kt-d-0001-bib",
+        
+        "sysid": "kt-d-0001-bib.xml",
+        "agents": [
+            
+                {
+                    "role":  "cataloger",
+                    "name": "ars",
+                    "date": "2008-12-08"
+                },
+                {
+                    "role":  "Proofer",
+                    "name": "",
+                    "date": "",
+                    "description": "Proofed data against original."
+                },
+                {
+                    "role":  "Conversion to XML",
+                    "name": "ndg",
+                    "date": "2009-09-01",
+                    "description": "Converted using shallow converter and creating a form that exactly matches number of titles etc."
+                }
+        ],
+        "parent_cat": "kt/d/kt-d-cat.xml",
+    
+        "collection": "KT",
+        "edition": {
+            "name": "Degé",
+            "sigla": "D",
+            "tibetan": "སྡེ་དགེ",
+            "wylie": "sde dge"
+        },
+        "other_editions": [
+            
+                    {
+                        "sigla": "P",
+                        "tnum": "1030",
+                        "pagination": ""
+                    },
+                    {
+                        "sigla": "Toh",
+                        "tnum": "1",
+                        "pagination": ""
+                    },
+                    {
+                        "sigla": "Dp",
+                        "tnum": "1",
+                        "pagination": "1.1-2438.6"
+                    }
+        ],
+        "volumes": [
+        
+                {
+                    "number": "1",
+                    "tibetan": "ཀ",
+                    "wylie": "ka",
+                    "num_in_vol": "1",
+                    "pagination": "1b.1-311a.6"
+                },
+                {
+                    "number": "2",
+                    "tibetan": "ཁ",
+                    "wylie": "kha",
+                    "num_in_vol": "1",
+                    "pagination": "1b.1-317a.7"
+                },
+                {
+                    "number": "3",
+                    "tibetan": "ག",
+                    "wylie": "ga",
+                    "num_in_vol": "1",
+                    "pagination": "1b.1-293a.6"
+                },
+                {
+                    "number": "4",
+                    "tibetan": "ང",
+                    "wylie": "nga",
+                    "num_in_vol": "1",
+                    "pagination": "1b.1-302a.5"
+                }
+        ],
+        "tnum": "1",
+        "text_label": "D.0001",
+    
+            "sides": {
+                
+                    "differential": "-2.284",
+                    "total": "2435.716"
+            },
+        
+        "section_summary": {
+            
+                "total":"42",
+                "front":"2",
+                "body":"36",
+                "back":"4",
+                "designations": [
+        {
+            "lang":"tib",
+            "text": "བམ་པོ།",
+            "wylie": "bam po/"
+        
+    },
+        {
+            "lang":"tib",
+            "text": "ལེའུ།",
+            "wylie": "le'u/"
+        
+    }]
+            
+        },
+    
+            "doxography": {
+        "relation":
+        {
+            "lang":"eng",
+            "text": "KG"
+    },
+        "assigned":
+        {
+            "lang":"tib",
+            "text": "འདུལ་བ།",
+            "wylie": "'dul ba/"
+        
+    },
+        "margin":
+        {
+            "lang":"tib",
+            "text": "འདུལ་བ།",
+            "wylie": "'dul ba/"
+        
+    }},
+        
+        "homage":{
+            "object": 
+        {
+            "lang":"tib",
+            "text": "དཀོན་མཆོག་གསུམ།",
+            "wylie": "dkon mchog gsum/"
+        
+    },
+             "source": "Translator's homage,  (vol. 001, 1b.1)"
+        }
+    }

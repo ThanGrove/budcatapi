@@ -34,15 +34,17 @@ class BiblNoEd(Resource):
 @api.route('/bibl/<string:cat>/<string:ed>/<int:tnum>')
 class BiblEd(Resource):
     def get(self, cat, ed, tnum):
-        filename = "{}-{}-{}-bib".format(cat, ed, tnum)
+        filename = "{}-{}-{}-bib".format(cat, ed, str(tnum).zfill(4))
         cmdstr = 'java -cp lib/saxon-he-10.2.jar net.sf.saxon.Transform -t ' \
                  '-s:xml/{}.xml -xsl:xsl/bibl-summary.xsl'.format(filename)
         # cmdstr = 'pwd'
         cmd = cmdstr.split(' ')
         result = subprocess.run(cmd, capture_output=True, encoding='utf8')
-        # return Response(result.stdout)
+        print("**************\nERROR: {}\n******************".format(result.stderr));
+        print("Result: \n{}".format(result.stdout))
+        with open('temp.json', 'w') as tmpout:
+            tmpout.write(result.stdout)
         biblsum = json.loads(result.stdout)
-        # print(result.stdout)
         return biblsum
 
 
