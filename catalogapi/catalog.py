@@ -1,11 +1,11 @@
-from flask import Blueprint, Response, Markup, render_template, jsonify
+from flask import Blueprint, Response, Markup, render_template, request, current_app, jsonify
 from flask_restplus import Resource, Api
 import subprocess
+from functools import wraps
 import json
 
 catbp = Blueprint('catalog', __name__, url_prefix='/catalog', template_folder='templates')
 api = Api(catbp)
-
 
 @catbp.route('/')
 def catindex():
@@ -48,3 +48,15 @@ class BiblEd(Resource):
         return biblsum
 
 
+@catbp.route('/jsonp/<string:cat>/<string:ed>/<int:tnum>')
+def BiblJson(cat, ed, tnum):
+    args = request.args
+    cbname = args.get('callback', 'cb')
+    filename = "{}-{}-{}-bib".format(cat, ed, str(tnum).zfill(4))
+    cmdstr = 'java -cp lib/saxon-he-10.2.jar net.sf.saxon.Transform -t ' \
+             '-s:xml/{}.xml -xsl:xsl/bibl-summary.xsl'.format(filename)
+    cmd = cmdstr.split(' ')
+    result = subprocess.run(cmd, capture_output=True, encoding='utf8')
+    biblsum = result.stdout
+    jsonp = "{0}({1})".format(cbname, biblsum)
+    return current_app.response_class(jsonp, mimetype='application/javascript')
